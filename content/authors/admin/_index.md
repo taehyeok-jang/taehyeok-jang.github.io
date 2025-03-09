@@ -1,9 +1,9 @@
 ---
 # Display name
-title: 吳健雄
+title: Taehyeok Jang
 
 # Name pronunciation (optional)
-name_pronunciation: Chien Shiung Wu
+# name_pronunciation: Chien 
 
 # Full name (for SEO)
 first_name: Shiung Wu
@@ -20,51 +20,52 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role: Chief Scientist
+role: Master's Student
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
-  - name: OpenAI
+  - name: Georgia Institute of Technology
     url: https://openai.com/
 
 # Social network links
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
   - icon: at-symbol
-    url: 'mailto:your-email@example.com'
+    url: 'mailto:tjang31@gatech.edu'
     label: E-mail Me
   - icon: brands/x
     url: https://twitter.com/GetResearchDev
   - icon: brands/instagram
     url: https://www.instagram.com/
   - icon: brands/github
-    url: https://github.com/gcushen
+    url: https://github.com/taehyeok-jang
   - icon: brands/linkedin
-    url: https://www.linkedin.com/
+    url: https://www.linkedin.com/in/taehyeok-jang/
   - icon: academicons/google-scholar
     url: https://scholar.google.com/
   - icon: academicons/orcid
     url: https://orcid.org/
 
 interests:
-  - Artificial Intelligence
-  - Computational Linguistics
-  - Information Retrieval
+  - Video Query Systems
+  - Large-Scale Distributed Systems
+  - Data-Intensive Applications
 
 education:
-  - area: PhD Artificial Intelligence
-    institution: Stanford University
-    date_start: 2016-01-01
-    date_end: 2020-12-31
+  - area: Master of Science, Computer Science
+    institution: Georgia Institute of Technology
+    date_start: 2024-01
+    date_end: 2025-12
     summary: |
+      My research focuses on developing video query systems for spatial-temporal events indexing and retrieval, supervised [Prof. Kexin Rong](https://kexinrong.github.io/).
       Thesis on _Why LLMs are awesome_. Supervised by [Prof Joe Smith](https://example.com). Presented papers at 5 IEEE conferences with the contributions being published in 2 Springer journals.
     button:
       text: 'Read Thesis'
       url: 'https://example.com'
-  - area: MEng Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    date_start: 2016-01-01
-    date_end: 2020-12-31
+  - area: Bachelor of Science, Electrical and Computer Engineering
+    institution: Seoul National University
+    date_start: 2011-03
+    date_end: 2015-08
     summary: |
       GPA: 3.8/4.0
 
