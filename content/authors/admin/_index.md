@@ -57,7 +57,7 @@ education:
     date_start: 2024-01-01
     date_end: 2025-12-31
     summary: |
-      My research focuses on developing video query systems for spatial-temporal events indexing and retrieval, advised by [Prof. Kexin Rong](https://kexinrong.github.io/).
+      My research focuses on developing video query systems for spatial-temporal events indexing and retreival. Broadly, I am interested in database, data infrastructure and large-scale distributed systems.
     button:
       text: 'Read Thesis'
       url: 'https://example.com'
@@ -66,33 +66,28 @@ education:
     date_start: 2011-03-01
     date_end: 2015-08-31
     summary: |
-      GPA: 3.8/4.0
 
-      Courses included:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
 work:
   - position: Sr. Backend Engineer
-    company_name: Coupang (Eats Engineering)
-    company_url: ''
-    company_logo: ''
+    company_name: Coupang - Eats Engineering
+    company_url: 'https://medium.com/@coupang-engineering'
+    company_logo: 🚀
     date_start: 2021-08-01
     date_end: 2024-04-30
     summary: |2-
-      - Developed backend infrastructure for delivery match optimization (multi order, sequential order, broadcast matching), contributing to ~5x growth in daily orders (120K->580K) and ~3x increase of couriers (8K->30K)
-      - Designed and built a real-time event streaming in delivery microservices, processing over 13M+ events and 2.5K queries for operations
+      - Developed backend infrastructure for delivery match optimization (multi order, sequential order, broadcast matching)
+      - Designed and built a real-time event streaming platform in delivery microservices, processing over tens of millions events per day
       - 1 patent, 2 awards in org wide
   - position: Software Engineer
-    company_name: LINE Corp (LINE Messaging Core)
-    company_url: ''
-    company_logo: ''
+    company_name: LINE Corp - LINE Messaging Core
+    company_url: 'https://engineering.linecorp.com/blog'
+    company_logo: 'icons8-line'
     date_start: 2019-01-01
     date_end: 2021-07-31
     summary: |
-      - Developed LINE chat-related experimental features for 2M+ users
-      - Designed and implmented a large-scale synchronization system between LINE core and LINE social graph platform, handling 120M+ users, and 96K messages/sec peak throuhgput
-      - Implemented MapReduce applications with optimization for LINE data science projects
+      - Developed LINE chat-related experimental features 
+      - Designed and implmented a large-scale synchronization system between LINE core and LINE social graph platform, handling hundreds of millions of users, and 96K messages/sec peak throuhgput
+      - Implemented optimized MapReduce applications for LINE data science projects
 
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
