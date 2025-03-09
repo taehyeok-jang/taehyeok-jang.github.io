@@ -3,15 +3,15 @@
 title: Taehyeok Jang
 
 # Name pronunciation (optional)
-name_pronunciation: Theo
+# name_pronunciation: Theo
 
 # Full name (for SEO)
 first_name: Taehyeok
 last_name: Jang
 
 # Status emoji
-status:
-  icon: ☕️
+# status:
+#   icon: ☕️
 
 # Is this the primary user of the site?
 superuser: true
@@ -52,13 +52,12 @@ interests:
   - Large-Scale Distributed Systems
 
 education:
-  - area: M.S. Computer Science
+  - area: M.S. in Computer Science
     institution: Georgia Institute of Technology
     date_start: 2024-01-01
     date_end: 2025-12-31
     summary: |
       My research focuses on developing video query systems for spatial-temporal events indexing and retrieval, advised by [Prof. Kexin Rong](https://kexinrong.github.io/).
-      Thesis on _Why LLMs are awesome_. Supervised by [Prof Joe Smith](https://example.com). Presented papers at 5 IEEE conferences with the contributions being published in 2 Springer journals.
     button:
       text: 'Read Thesis'
       url: 'https://example.com'
@@ -171,6 +170,6 @@ awards:
 
 I am a Master’s student at Georgia Tech, advised by [Prof. Kexin Rong](https://kexinrong.github.io/).
 
-My current research focuses on **developing video query systems for spatial-temporal events indexing and retreival**. More broadly, I am interested in **database, data infrastructure** and **large-scale distributed systems**. 
+My research focuses on **developing video query systems for spatial-temporal events indexing and retreival**. Broadly, I am interested in **database, data infrastructure** and **large-scale distributed systems**. 
 
-Before joining Georgia Tech, I worked 5+ years as a backend engineer at Coupang and LINE Corp, where I helped to build and scale services handling half-million transactions and serving hundreds of millions of users. 
+Before joining Georgia Tech, I worked 5+ years as a backend engineer at Coupang and LINE Corp, where I contributed to build and scale services handling half-million transactions and serving hundreds of millions of users. 
