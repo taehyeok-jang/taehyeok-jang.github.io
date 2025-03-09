@@ -68,25 +68,25 @@ education:
     summary: |
 
 work:
-  - position: Sr. Backend Engineer, Eats Engineering
-    company_name: Coupang
+  - position: Sr. Backend Engineer
+    company_name: Coupang - Eats Engineering
     company_url: 'https://medium.com/@coupang-engineering'
-    company_logo: 🚀
+    company_logo: 'custom/icons8-cpng'
     date_start: 2021-08-01
     date_end: 2024-04-30
     summary: |2-
       - Developed backend infrastructure for delivery match optimization (multi order, sequential order, broadcast matching)
       - Designed and built a real-time event streaming platform in delivery microservices, processing over tens of millions events per day
       - 1 patent, 2 awards in org wide
-  - position: Software Engineer, LINE Messaging Core
-    company_name: LINE
+  - position: Software Engineer
+    company_name: LINE - LINE Messaging Core
     company_url: 'https://engineering.linecorp.com/blog'
-    company_logo: 'icons8-line'
+    company_logo: 'custom/icons8-line'
     date_start: 2019-01-01
     date_end: 2021-07-31
     summary: |
       - Developed LINE chat-related experimental features 
-      - Designed and implmented a large-scale synchronization system between LINE core and LINE social graph platform, handling hundreds of millions of users, and 96K messages/sec peak throuhgput
+      - Designed and implmented a large-scale synchronization system between LINE core and LINE social graph platform, handling 120M+ users, and 96K messages/sec peak throuhgput
       - Implemented optimized MapReduce applications for LINE data science projects
 
 # Skills
