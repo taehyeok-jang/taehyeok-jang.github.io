@@ -1,17 +1,17 @@
 ---
 # Display name
-title: 吳健雄
+title: Taehyeok Jang
 
-# Name pronunciation (optional)
-name_pronunciation: Chien Shiung Wu
+# # Name pronunciation (optional)
+# name_pronunciation: Chien Shiung Wu
 
 # Full name (for SEO)
-first_name: Shiung Wu
-last_name: Chien
+first_name: Taehyeok
+last_name: Jang
 
 # Status emoji
 status:
-  icon: ☕️
+  icon: 😊
 
 # Is this the primary user of the site?
 superuser: true
@@ -20,51 +20,51 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role: Chief Scientist
+role: Master's Student
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
-  - name: OpenAI
+  - name: Georgia Institute of Technology
     url: https://openai.com/
 
 # Social network links
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
   - icon: at-symbol
-    url: 'mailto:your-email@example.com'
+    url: 'mailto:tjang31@gatech.edu'
     label: E-mail Me
-  - icon: brands/x
-    url: https://twitter.com/GetResearchDev
-  - icon: brands/instagram
-    url: https://www.instagram.com/
+  # - icon: brands/x
+  #   url: https://twitter.com/GetResearchDev
+  # - icon: brands/instagram
+  #   url: https://www.instagram.com/
   - icon: brands/github
-    url: https://github.com/gcushen
+    url: https://github.com/taehyeok-jang
   - icon: brands/linkedin
-    url: https://www.linkedin.com/
-  - icon: academicons/google-scholar
-    url: https://scholar.google.com/
+    url: https://www.linkedin.com/in/taehyeok-jang/
+  # - icon: academicons/google-scholar
+  #   url: https://scholar.google.com/
   - icon: academicons/orcid
     url: https://orcid.org/
 
 interests:
-  - Artificial Intelligence
-  - Computational Linguistics
-  - Information Retrieval
+  - Video Database
+  - Large-Scale Distributed Systems
+  - Data-Intensive Applications
 
 education:
-  - area: PhD Artificial Intelligence
-    institution: Stanford University
-    date_start: 2016-01-01
-    date_end: 2020-12-31
+  - area: Master of Science, Computer Science
+    institution: Georgia Institute of Technology
+    date_start: 2024.01.
+    date_end: Present
     summary: |
-      Thesis on _Why LLMs are awesome_. Supervised by [Prof Joe Smith](https://example.com). Presented papers at 5 IEEE conferences with the contributions being published in 2 Springer journals.
+      My research focus is developing video query systems for spatial-temporal events indexing and retreival, supervised [Prof. Kexin Rong](https://kexinrong.github.io/).
     button:
       text: 'Read Thesis'
       url: 'https://example.com'
-  - area: MEng Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    date_start: 2016-01-01
-    date_end: 2020-12-31
+  - area: Bachelor of Science, Electrical and Computer Engineering
+    institution: Seoul National University
+    date_start: 2011.03.
+    date_end: 2015.08.
     summary: |
       GPA: 3.8/4.0
 
@@ -72,40 +72,27 @@ education:
       - lorem ipsum dolor sit amet, consectetur adipiscing elit
       - lorem ipsum dolor sit amet, consectetur adipiscing elit
       - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - area: BSc Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    date_start: 2016-01-01
-    date_end: 2020-12-31
-    summary: |
-      GPA: 3.4/4.0
-      
-      Courses included:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
 work:
-  - position: Director of Cloud Infrastructure
-    company_name: GenCoin
+  - position: Sr. Backend Engineer, Coupang Eats
+    company_name: Coupang
     company_url: ''
-    company_logo: ''
-    date_start: 2021-01-01
-    date_end: ''
+    company_logo: 🚀
+    date_start: 2021.08.
+    date_end: 20
     summary: |2-
-      Responsibilities include:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - position: Backend Software Engineer
+      - Developed backend infrastructure for delivery match optimization (multi order, sequential order, broadcast matching), contributing to ~5x growth in daily orders (120K->580K) and ~3x increase of couriers (8K->30K)
+      - Designed and built a real-time event streaming in delivery microservices, processing over 13M+ events
+      - 1 patent, 2 awards in org wide
+  - position: Software Engineer, LINE core 
     company_name: X
     company_url: ''
     company_logo: ''
     date_start: 2016-01-01
     date_end: 2020-12-31
     summary: |
-      Responsibilities include:
-      - Migrated infrastructure to a new data center
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      - Developed LINE chat-related experimental features for 2M+ users. 
+      - Designed and implmented a large-scale synchronization system between LINE core and LINE social graph platform, handling 120M+ users, and 96K messages/sec peak throuhgput 
+      - Implemented MapReduce applications with optimization for LINE data science projects
 
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
@@ -144,10 +131,8 @@ skills:
 languages:
   - name: English
     percent: 100
-  - name: Chinese
-    percent: 75
-  - name: Portuguese
-    percent: 25
+  - name: Korean
+    percent: 100
 
 # Awards.
 #   Add/remove as many awards below as you like.
@@ -182,5 +167,9 @@ awards:
 ---
 
 ## About Me
+I am a Master’s student at Georgia Tech, supervised [Prof. Kexin Rong](https://kexinrong.github.io/).
 
-Chien Shiung Wu is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+My current research focuses on **developing video database for spatial-temporal events indexing and retreival**. More broadly, I am interested in **large-scale distributed systems and data-intensive applications**. 
+
+Before joining Georgia Tech, I worked 5+ years as a backend engineer at Coupang and LINE, where I helped to build and scale services handling half-million transactions and serving hundreds of millions of users. 
+
