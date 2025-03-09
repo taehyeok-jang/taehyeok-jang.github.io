@@ -54,8 +54,8 @@ interests:
 education:
   - area: Master of Science, Computer Science
     institution: Georgia Institute of Technology
-    date_start: 2024-01
-    date_end: 2025-12
+    date_start: 2024-01-01
+    date_end: 2025-12-31
     summary: |
       My research focuses on developing video query systems for spatial-temporal events indexing and retrieval, supervised [Prof. Kexin Rong](https://kexinrong.github.io/).
       Thesis on _Why LLMs are awesome_. Supervised by [Prof Joe Smith](https://example.com). Presented papers at 5 IEEE conferences with the contributions being published in 2 Springer journals.
@@ -64,8 +64,8 @@ education:
       url: 'https://example.com'
   - area: Bachelor of Science, Electrical and Computer Engineering
     institution: Seoul National University
-    date_start: 2011-03
-    date_end: 2015-08
+    date_start: 2011-03-01
+    date_end: 2015-08-31
     summary: |
       GPA: 3.8/4.0
 
