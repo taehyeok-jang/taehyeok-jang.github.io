@@ -163,8 +163,8 @@ awards:
 
 ## About Me
 
-I am a M.S. student at Georgia Tech, advised by [Prof. Kexin Rong](https://kexinrong.github.io/).
+I am a M.S. student at Georgia Tech, advised by [Kexin Rong](https://kexinrong.github.io/).
 
-My research focuses on **developing video query systems for spatial-temporal events indexing and retreival**. Broadly, I am interested in **database, data infrastructure** and **large-scale distributed systems**. 
+My research focuses on **developing video query systems for spatial-temporal event indexing and retreival**. Broadly, I am interested in **database, data infrastructure**, and **large-scale distributed systems**. 
 
-Before joining Georgia Tech, I worked 5+ years as a backend engineer at Coupang and LINE, where I contributed to build and scale services handling half-million transactions and serving hundreds of millions of users. 
+Before joining Georgia Tech, I worked for 5+ years as a backend engineer at Coupang and LINE, where I contributed to build and scale services handling half a million transactions and serving hundreds of millions of users. 
