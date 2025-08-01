@@ -1,6 +1,6 @@
 ---
 title: Flow Control Across Network Stacks - TCP, HTTP/2, and Reactive Streams
-summary: N/A
+summary: Flow Control Across Network Stacks
 date: 2020-06-07
 authors:
   - admin
@@ -15,8 +15,6 @@ Let’s suppose we are building a network application using a reactive stream im
 Reactive streams provide flow control through a mechanism known as *back-pressure*. A subscriber in a reactive stream can signal availability to the connected publisher, thereby controlling the size of streamed data. However, there are additional flow control mechanisms behind at both the application layer (HTTP/2) and the transport layer (TCP).
 
 That means, when streaming data to an end system, these layers of flow control are at play. In this post, we’ll explore each of these layers in order—starting from the lowest level.
-
----
 
 ## TCP Layer
 
@@ -38,8 +36,6 @@ The receiver continuously advertises its available buffer size through the TCP h
 rwnd = RcvBuffer - (LastByteRcvd - LastByteRead)
 ```
 
----
-
 ## HTTP/2
 
 ![fig7\_1\_alt](https://github.com/taehyeok-jang/taehyeok-jang.github.io/assets/31732943/d997c815-2f95-48c0-856f-688e927718cc)
@@ -54,8 +50,6 @@ Importantly, HTTP/2 flow control is *hop-by-hop*, not end-to-end. Each intermedi
 
 <img src="https://github.com/taehyeok-jang/taehyeok-jang.github.io_legacy/assets/31732943/43174293-f4ff-49a6-b0da-e7f6eb097e10" alt="http2_flow_control_01"/>
 
----
-
 ## Reactive Stream
 
 ![bp buffer2 v3](https://github.com/taehyeok-jang/taehyeok-jang.github.io_legacy/assets/31732943/95bca026-205c-44bf-a79d-2502c1a86386)
@@ -65,8 +59,6 @@ Reactive stream's *back-pressure* is a mechanism where the *subscriber* controls
 To prevent this, the subscriber controls the *acceptance rate* by requesting how many data it’s ready to receive via callbacks.
 
 Various implementations of reactive streams support different back-pressure strategies. There is no one-size-fits-all solution—the best strategy depends on the network conditions and application-specific behavior.
-
----
 
 ## References
 
@@ -82,7 +74,6 @@ Various implementations of reactive streams support different back-pressure stra
   * [HTTP/2 Spec](https://http2.github.io/http2-spec/)
 
 * **Reactive Stream**
-
   * [RxJava Wiki – Backpressure](https://github.com/ReactiveX/RxJava/wiki/Backpressure)
   * [RxJava 2.x BackpressureStrategy Documentation](http://reactivex.io/RxJava/2.x/javadoc/io/reactivex/BackpressureStrategy.html)
 
