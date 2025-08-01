@@ -1,6 +1,6 @@
 ---
 title: Flow Control Across Network Stacks - TCP, HTTP/2, and Reactive Streams
-summary: Flow Control Across Network Stacks
+summary: Flow Control Across Network Stacks - TCP, HTTP/2, and Reactive Streams
 date: 2020-06-07
 authors:
   - admin
@@ -44,7 +44,7 @@ HTTP/2 is a protocol designed to improve efficiency at the application layer. Un
 
 Flow control is essential in this environment to regulate data transfer. Each receiver in an HTTP/2 stream can control how much data it’s willing to accept at a time.
 
-HTTP/2 uses a *credit-based* flow control mechanism. A receiver advertises an initial credit (i.e., how much data it can accept), and this credit is consumed as data arrives. The receiver can replenish credits by sending a `WINDOW_UPDATE` frame. This allows the sending rate to be dynamically adjusted.
+HTTP/2 uses a *credit-based* flow control mechanism. A receiver advertises an initial credit (i.e., how much data it can accept), and this credit is consumed as data arrives. The receiver can replenish credits by sending a *WINDOW_UPDATE* frame. This allows the sending rate to be dynamically adjusted.
 
 Importantly, HTTP/2 flow control is *hop-by-hop*, not end-to-end. Each intermediary node (such as a proxy or gateway) independently manages flow control based on its own resource constraints and policies. This enhances both performance and stability across the network.
 
