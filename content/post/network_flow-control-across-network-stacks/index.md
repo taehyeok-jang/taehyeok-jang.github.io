@@ -1,5 +1,5 @@
 ---
-title: Flow Control Across Network Stacks: TCP, HTTP/2, and Reactive Streams
+title: Flow Control Across Network Stacks - TCP, HTTP/2, and Reactive Streams
 summary: 
 date: 2020-06-07
 authors:
